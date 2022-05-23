@@ -1,0 +1,25 @@
+.header{
+  display: flex;
+ justify-content: space-around;
+}
+
+ul{
+  display: flex;
+  gap:16px;
+  list-style: none;
+}
+
+.content{
+  display: flex;
+  justify-content: space-around;
+}
+
+.sign-up{
+  display: flex;
+  flex-direction: column;
+}
+
+img{
+  width: 400px;
+  height: 200px
+}
