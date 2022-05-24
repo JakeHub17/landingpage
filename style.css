@@ -3,6 +3,7 @@ body{
   padding: 0;
 }
 
+
 .header{
   display: flex;
  justify-content: space-around;
@@ -51,7 +52,7 @@ ul{
   padding-left: 210px;
   padding-right: 100px;
   background-color: #1F2937;
-  padding-bottom: 100px;
+  padding-bottom: 118px;
 }
 
 .sign-up{
@@ -90,6 +91,36 @@ a{
   color:#F9FaF8;
 }
 
-.rand-info{
-  display: block;
+.rand-info h1{
+  text-align: center;
+  padding-top: 25px;
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1F2937;
+  font-family: Arial, sans-serif;
+  padding-top:25px ;
 }
+
+.container{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding-top: 25px;
+  gap:50px;
+  padding-bottom: 100px;
+}
+
+.container img{
+  width: 175px;
+  height: 175px;
+  border: 5px solid #3882f6;
+  border-radius: 25px;
+  flex-shrink: 0;
+}
+
+.info{
+  max-width: 200px;
+  font-family: Arial, sans-serif;
+  color: rgb(149, 149, 149);
+}
+
