@@ -13,7 +13,7 @@ body{
  font-family: Arial, sans-serif;
 }
 
-h2{
+.header h2{
   color:#F9FaF8;
   font-family: Arial, sans-serif;
   font-size: 24px;
@@ -27,7 +27,7 @@ h2{
   margin-top: 0px;
   padding-bottom: 0px;
 }
-p{
+.sign-up p{
   color:#F9FaF8;
   font-size: 18px;
   font-family: Arial, sans-serif;
@@ -76,7 +76,7 @@ ul{
   margin-left: -100px;
 }
 
-button{
+.blue button{
  color: #F9FaF8;
  background-color: #3882f6;
  padding: 8px 32px;
@@ -123,4 +123,75 @@ a{
   font-family: Arial, sans-serif;
   color: rgb(149, 149, 149);
 }
+
+.quote p{
+  font-size: 36px;
+  font-family: Arial, sans-serif;
+  max-width: 700px;
+  position: relative;
+  padding-left: 400px;
+  padding-right: 400px;
+  padding-top: 75px;
+  background-color: rgb(230, 230, 230);
+  color: #1F2937;;
+}
+
+.speaker{
+  font-size: 30px;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  padding-bottom: 75px;
+  padding-left: 760px;
+  color: #1F2937;;
+  background-color: rgb(230, 230, 230);
+  margin-top: -36px;
+}
+
+.blue-bar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:82px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 75px;
+  background-color: #3882f6;
+  border-radius: 5px;
+  margin: 100px;
+  font-size: 26px;
+}
+.blue-bar h3{
+  font-size:32px ;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+.blue-bar p{
+  margin-top: -30px;
+  font-size: 20px;
+  font-family: Arial, sans-serif;
+  color: rgb(230, 230, 230);
+}
+
+.blue-bar button{
+  color: #F9FaF8;
+  background-color: #3882f6;
+  border: 2px solid white;
+  padding: 8px 32px;
+  display: flex;
+  font-size: 16px;
+  border-radius: 5px;
+  font-weight: bold;
+ }
+
+
+footer{
+  text-align: center;
+  padding: 24px 0px;
+  background-color: #1F2937;
+  color: white;
+}
+
+
+
+
 
